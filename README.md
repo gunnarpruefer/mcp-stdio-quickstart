@@ -56,3 +56,9 @@ If you want to learn more about building native executables, please consult <htt
 ## Related Guides
 
 - MCP Server - STDIO ([guide](https://docs.quarkiverse.io/quarkus-mcp-server/dev/)): The STDIO transport the MCP server.
+  https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector
+
+start MCP Inspector script:
+```shell script
+npx @modelcontextprotocol/inspector
+```
