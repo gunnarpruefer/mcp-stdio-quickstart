@@ -10,7 +10,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 public class MathTools {
 
     @Tool(description = "Calculate the sum of two numbers")
-    int add(
+    public Integer add(
             @ToolArg(description = "First number") int a,
             @ToolArg(description = "Second number") int b
     ) {
