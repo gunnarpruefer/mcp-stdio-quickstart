@@ -15,8 +15,8 @@ public class MyPingTools {
     @Inject
     PingService pingService;
 
-    @Tool(description = "Pinging via injected service. And with default values.")
-    ToolResponse foo(@ToolArg(description = "The name", defaultValue = "Andy") String name) {
+    @Tool(title = "Ping!", name = "advanced ping", description = "Pinging via injected service. And with default values.")
+    ToolResponse ping(@ToolArg(description = "The name", defaultValue = "Andy") String name) {
         return ToolResponse.success(
                 new TextContent(pingService.ping(name)));
     }}
